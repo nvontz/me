@@ -3658,7 +3658,7 @@ textarea {
     margin-top: 20px;
 }
 }.card-container {
-    background-color: #fff;
+    background-color: #eee;
     padding: 2rem 5rem;
     position: relative;
     width: 80%;
@@ -3675,21 +3675,21 @@ textarea {
     padding: 2rem 3em;
     margin-top: -10em;
 }
-}.black-image-project-hover {
+}.image-project-hover {
     display: block;
 }
-.black-image-project-hover img {
-    -webkit-filter: contrast(200%) grayscale(100%);
-    filter: contrast(200%) grayscale(100%);
+.image-project-hover img {
+    -webkit-filter: contrast(200%) grayscale(20%);
+    filter: contrast(200%) grayscale(20%);
     -webkit-transition: all .1s linear;
     -o-transition: all .1s linear;
     transition: all .1s linear;
 }
-.black-image-project-hover img:hover {
+.bimage-project-hover img:hover {
     filter: none;
 }
 @media (max-width:992px) {
-    .black-image-project-hover img {
+    .image-project-hover img {
     filter: none;
 }
 }@media (max-width:768px) {
